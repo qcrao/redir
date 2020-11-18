@@ -3,13 +3,13 @@
 # by a MIT license that can be found in the LICENSE file.
 
 ---
-title: "The golang.design Initiative"
-host: https://golang.design
+title: "qcrao.com/s"
+host: https://qcrao.com
 addr: :9123
 store: redis://localhost:6379/9
 backup_min: 10
 backup_dir: ./data/backup
-log: "golang.design/redir: "
+log: "qcrao.com/redir: "
 s:
   prefix: /s/
 x:
@@ -20,10 +20,10 @@ x:
   godoc_host: https://pkg.go.dev/
 google_analytics: |
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80889616-4"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144930666-1"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-80889616-4');
+  gtag('config', 'UA-144930666-1');
   </script>
